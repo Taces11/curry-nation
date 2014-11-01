@@ -1,0 +1,24 @@
+rails new curry-nation -d mysql
+
+git init
+
+git remogit remote add origin https://github.com/Taces11/curry-nation.git 
+
+git add . 
+
+git commit -m 'first commit'
+
+git push -u origin master
+
+
+=============================================================================
+
+1) edit database.yml by adding the "password", and changing the host to "127.0.0.1"
+
+2) migrate to mysql by entering $ rake db:create db:migrate
+
+3) enter rails s and test 
+
+=============================================================================
+
+
